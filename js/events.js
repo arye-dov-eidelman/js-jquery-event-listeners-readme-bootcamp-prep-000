@@ -10,13 +10,13 @@ function frameIt(){
   })
 }
 
-function getIt(){
-  $('p').on('click', function(){
+function pressIt(){
+  $('input[type="text"]').on('keydown', function(){
   alert('Hey!')
   })
 }
 
-function getIt(){
+function submitIt(){
   $('p').on('click', function(){
   alert('Hey!')
   })
