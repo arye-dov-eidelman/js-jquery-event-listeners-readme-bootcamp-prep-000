@@ -1,17 +1,18 @@
 function getIt(){
   $('p').on('click', function(){
-  alert('Hey!')
+  alert('Hey!');
   })
 }
 
 function frameIt(){
   $('img').on('load', function(){
-    $('img').addClass('tasty')
+    $('img').addClass('tasty');
   })
 }
 
 function pressIt(){
   $('input[type="text"]').on('keydown', function(event){
+    console.log('a');
     if(e.which === 71){
       alert('Hey!')
     }
@@ -20,13 +21,13 @@ function pressIt(){
 
 function submitIt(){
   $('p').on('click', function(){
-  alert('Hey!')
+  alert('Hey!');
   })
 }
 
 $(document).ready(function(){
-  getIt()
-  frameIt()
-  pressIt()
-  submitIt()
+  getIt();
+  frameIt();
+  pressIt();
+  submitIt();
 });
