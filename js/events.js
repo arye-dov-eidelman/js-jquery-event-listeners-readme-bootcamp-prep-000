@@ -11,8 +11,10 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('input[type="text"]').on('keydown', function(){
-  alert('Hey!')
+  $('input[type="text"]').on('keydown', function(event){
+    if(e.which === 71){
+      alert('Hey!')
+    }
   })
 }
 
