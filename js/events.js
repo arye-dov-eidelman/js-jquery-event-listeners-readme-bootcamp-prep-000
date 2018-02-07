@@ -6,8 +6,8 @@ function getIt(){
 }
 
 function frameIt(){
-  console.log('a');
   $('img').on('load', function(){
+    console.log('a');
     $('img').addClass('tasty');
   })
 }
@@ -22,9 +22,9 @@ function pressIt(){
 }
 
 function submitIt(){
-  console.log('a');
   $('p').on('click', function(){
-  alert('Hey!');
+    console.log('a');
+    alert('Hey!');
   })
 }
 
