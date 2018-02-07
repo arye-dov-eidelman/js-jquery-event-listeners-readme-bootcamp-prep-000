@@ -1,10 +1,12 @@
 function getIt(){
+  console.log('a');
   $('p').on('click', function(){
   alert('Hey!');
   })
 }
 
 function frameIt(){
+  console.log('a');
   $('img').on('load', function(){
     $('img').addClass('tasty');
   })
@@ -20,12 +22,14 @@ function pressIt(){
 }
 
 function submitIt(){
+  console.log('a');
   $('p').on('click', function(){
   alert('Hey!');
   })
 }
 
 $(document).ready(function(){
+  console.log('a');
   getIt();
   frameIt();
   pressIt();
